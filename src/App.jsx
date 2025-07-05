@@ -4,78 +4,90 @@ import viteLogo from '/vite.svg'
 
 import PropsPractice from './Components/PropsPractice'
 import PropsWithArray from './Components/PropsWithArray'
+import PropsWithClick from './Components/PropsWithClick'
+import Laptop from './Components/Laptop'
 
 
 function App() {
 
-  function HamdleAlert()
-  {
+  function HamdleAlert() {
     alert("time 10AM")
   }
-
-  // variables 
-  // let name = "wakeel"
-  // let  age = 23
-  // let gmail = "wakeel12@gmail.com"
 
 
   // object1
   let UserObj1 = {
-    name : "wakeel",
-    age:"23",
-    gmail:"wakeel12@gmail.com",
-    address :"jaypur",
+    name: "wakeel",
+    age: "23",
+    gmail: "wakeel12@gmail.com",
+    address: "jaypur",
     phone: "9817890206"
   }
 
-    // object2
+  // object2
   let UserObj2 = {
-    name : "wakeel",
-    age:"23",
-    gmail:"wakeel12@gmail.com",
-    address :"jaypur",
+    name: "wakeel",
+    age: "23",
+    gmail: "wakeel12@gmail.com",
+    address: "jaypur",
     phone: "9817890206"
   }
 
-    // object3
+  // object3
   let UserObj3 = {
-    name : "wakeel",
-    age:"23",
-    gmail:"wakeel12@gmail.com",
-    address :"jaypur",
+    name: "wakeel",
+    age: "23",
+    gmail: "wakeel12@gmail.com",
+    address: "jaypur",
     phone: "9817890206"
   }
-    // object4
+  // object4
   let UserObj4 = {
-    name : "wakeel",
-    age:"23",
-    gmail:"wakeel12@gmail.com",
-    address :"jaypur",
+    name: "wakeel",
+    age: "23",
+    gmail: "wakeel12@gmail.com",
+    address: "jaypur",
     phone: "9817890206"
   }
 
-  let CollageNames = ['pu','kit','nit','iit']
+  // array
+  // let CollageNames = ['pu','kit','nit','iit']
+
+  let sum = 12 + 12
 
   return (
     <>
-    {/* <h1>are you ready to join my live class </h1>
+      <div>
+
+        {/* <h1>are you ready to join my live class </h1>
     <button>yes</button>
     <button onClick={HamdleAlert}>no</button> */}
 
-{/* <PropsPractice name = {name} age = {age} gmail={ gmail}></PropsPractice> */}
+      </div>
+      <div>
+        {/* <PropsPractice name = {name} age = {age} gmail={ gmail}></PropsPractice> */}
+      </div>
 
+      <div>
 
-
-
-{/* <PropsPractice user={UserObj1} />
+        {/* <PropsPractice user={UserObj1} />
 <PropsPractice user={UserObj1} />
 <PropsPractice user={UserObj1} />
 <PropsPractice user={UserObj1} /> */}
+      </div>
 
-<PropsWithArray  collage={CollageNames}></PropsWithArray>
+      <div>
+
+        {/* <PropsWithArray  collage={CollageNames}></PropsWithArray> */}
+      </div>
 
 
 
+  
+
+<Laptop  name = "hp" price="120000" brand ="Probook"/>
+<Laptop  name = "dell" price="150000" brand ="yoga"/>
+<Laptop  name = "lenovo" price="100000" brand ="inspiron"/>
 
 
 
