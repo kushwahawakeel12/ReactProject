@@ -1,33 +1,84 @@
-import { useState } from 'react'
+
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+
+import PropsPractice from './Components/PropsPractice'
+import PropsWithArray from './Components/PropsWithArray'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  function HamdleAlert()
+  {
+    alert("time 10AM")
+  }
+
+  // variables 
+  // let name = "wakeel"
+  // let  age = 23
+  // let gmail = "wakeel12@gmail.com"
+
+
+  // object1
+  let UserObj1 = {
+    name : "wakeel",
+    age:"23",
+    gmail:"wakeel12@gmail.com",
+    address :"jaypur",
+    phone: "9817890206"
+  }
+
+    // object2
+  let UserObj2 = {
+    name : "wakeel",
+    age:"23",
+    gmail:"wakeel12@gmail.com",
+    address :"jaypur",
+    phone: "9817890206"
+  }
+
+    // object3
+  let UserObj3 = {
+    name : "wakeel",
+    age:"23",
+    gmail:"wakeel12@gmail.com",
+    address :"jaypur",
+    phone: "9817890206"
+  }
+    // object4
+  let UserObj4 = {
+    name : "wakeel",
+    age:"23",
+    gmail:"wakeel12@gmail.com",
+    address :"jaypur",
+    phone: "9817890206"
+  }
+
+  let CollageNames = ['pu','kit','nit','iit']
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    {/* <h1>are you ready to join my live class </h1>
+    <button>yes</button>
+    <button onClick={HamdleAlert}>no</button> */}
+
+{/* <PropsPractice name = {name} age = {age} gmail={ gmail}></PropsPractice> */}
+
+
+
+
+{/* <PropsPractice user={UserObj1} />
+<PropsPractice user={UserObj1} />
+<PropsPractice user={UserObj1} />
+<PropsPractice user={UserObj1} /> */}
+
+<PropsWithArray  collage={CollageNames}></PropsWithArray>
+
+
+
+
+
+
     </>
   )
 }
