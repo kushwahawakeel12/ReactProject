@@ -6,6 +6,8 @@ import PropsPractice from './Components/PropsPractice'
 import PropsWithArray from './Components/PropsWithArray'
 import PropsWithClick from './Components/PropsWithClick'
 import Laptop from './Components/Laptop'
+import Events from './Components/Events'
+import Counter from './Components/Counter'
 
 
 function App() {
@@ -55,6 +57,11 @@ function App() {
 
   let sum = 12 + 12
 
+ function message ()
+ {
+  alert("ji upload kariya")
+ }
+
   return (
     <>
       <div>
@@ -82,14 +89,23 @@ function App() {
       </div>
 
 
+{/* 
+  <div>
 
-  
 
 <Laptop  name = "hp" price="120000" brand ="Probook"/>
 <Laptop  name = "dell" price="150000" brand ="yoga"/>
 <Laptop  name = "lenovo" price="100000" brand ="inspiron"/>
+  </div> */}
+
+<div>
+  {/* <Events Message = {message}  /> */}
+</div>
 
 
+<div>
+<Counter />
+</div>
 
     </>
   )
