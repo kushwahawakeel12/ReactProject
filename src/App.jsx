@@ -8,6 +8,8 @@ import PropsWithClick from './Components/PropsWithClick'
 import Laptop from './Components/Laptop'
 import Events from './Components/Events'
 import Counter from './Components/Counter'
+import MapProducts from './Components/MapProducts'
+import FilterProducts from './Components/FilterProducts'
 
 
 function App() {
@@ -104,8 +106,17 @@ function App() {
 
 
 <div>
-<Counter />
+{/* <Counter /> */}
 </div>
+
+<div>
+{/* <MapProducts/> */}
+</div>
+
+<div>
+  <FilterProducts/>
+</div>
+
 
     </>
   )
