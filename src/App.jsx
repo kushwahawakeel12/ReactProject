@@ -10,6 +10,7 @@ import Events from './Components/Events'
 import Counter from './Components/Counter'
 import MapProducts from './Components/MapProducts'
 import FilterProducts from './Components/FilterProducts'
+import Practices from './Components/Practices'
 
 
 function App() {
@@ -114,10 +115,12 @@ function App() {
 </div>
 
 <div>
-  <FilterProducts/>
+  {/* <FilterProducts/> */}
 </div>
 
-
+<div>
+  <Practices/>
+</div>
     </>
   )
 }
