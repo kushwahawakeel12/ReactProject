@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "day1",
-=======
   "name": "day2",
->>>>>>> 3bd3261 (complete useEffect)
   "private": true,
   "version": "0.0.0",
   "type": "module",

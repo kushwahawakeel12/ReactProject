@@ -11,6 +11,7 @@ const Data_Fetch_API = () => {
       setApiData(data);
     };
 
+  
     fetchData();
   }, []);
 
